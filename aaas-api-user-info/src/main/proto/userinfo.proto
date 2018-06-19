@@ -132,3 +132,7 @@ message GetUserProdDetailQuery{
 message GetUserProdDetailResults{
   repeated UserProdDetail userProdDetail = 1;
 }
+
+message MyTest{
+  int64 id = 1;
+}
